@@ -1,13 +1,15 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Girassol", sans-serif;
+    background-color: goldenrod;
+    
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: "Girassol", cursive;
 }
 
 h2 {
-    color: #3046C5;
+    color: red;
 }
 
 header h2 {
@@ -15,14 +17,14 @@ header h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(rgb(80, 212, 140), rgb(221, 60, 60));
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, black,blue, green);
     color: white;
 }
 
@@ -47,12 +49,4 @@ header h2 {
 }
 .carousel {
     border: solid #5637DD
-}
-
-#carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-
 }
