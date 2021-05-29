@@ -63,3 +63,77 @@ header h2 {
     font-family: "Girassol", cursive;
     
 }
+
+#welcome {
+    color: #CEC8FF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #5637DD
+    
+
+}
+
+#offenseBtn {
+    color: black;
+    background-image: url(../img3/ragnajin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#offense {
+    color: #CEC8FF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #5637DD
+    
+
+}
+
+#defenseBtn {
+    color:black;
+    background-image: url(../img3/rubyjin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+#defense {
+    color: #CEC8FF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #5637DD
+    
+
+}
+
+#neutralBtn {
+    color: black;
+    background-image: url(../img3/azrael.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#neutral {
+    color: #CEC8FF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #5637DD
+    
+
+}
+
+
+#matchupBtn {
+    color: black;
+    background-image: url(../img3/tao.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#matchup {
+    color: #CEC8FF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #5637DD
+    
+
+}

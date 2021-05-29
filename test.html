@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet" />
+
+</head>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Girassol", sans-serif;
+    color: rgb(95, 50, 50);
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("img3/grave.png");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("img3/ragnajin.gif");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("img3/rubyjin.gif");
+    min-height: 400px;
+  }
+  
+  .bgimg-4 {
+    background-image: url("img3/azrael.gif");
+    min-height: 400px;
+  }
+
+  .bgimg-5 {
+    background-image: url("img3/tao.gif");
+    min-height: 400px;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: cyan;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Girassol", sans-serif;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+</style>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Welcome to Rising Azure</span>
+  </div>
+</div>
+
+<div style="color:black;background-color:cyan;text-align:center;padding:50px 80px;text-align: justify;font-size: large;">
+  <h3 style="text-align:center;">Rising to your full potential</h3>
+  <p >Rising Azure is a site designed to help new players to the Blazblue series set goals for themselves and improve at the game. Here, you can divide your goals into individual sections: Offense, Defense, Neutral, and Character Matchups. You can upload your matches here and divide your goals into those 4 sections. This site is primarly focused on Blazblue Centralfiction and not Blazblue Cross Tag Battle. </p>
+  
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span  class="border" style="background-color:black;font-size:25px;color: cyan; font-weight: bold; border-style: solid;" id="offense">OFFENSE</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify; font-size: large;">
+  <p>Relentlessly pressure your opponnent and make them too afraid to press any buttons.  A good offense is the cornerstone of pushing your advantage in the max. Perhaps yours could use a few changes her in there? Put goals in this section to become an even fiercer opponent.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:black;font-size:25px;color: cyan; font-weight: bold; border-style: solid;">DEFENSE</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify; font-size: large;">
+  <p>Be an impenetrable wall that can withstand any form of attack. Learning how to play on the defense in a disadvantageous posistion is what will allow you to stay safe and find an oportunity to go on the offense. Maybe your defense is a little to easy to break? Put goals here to further strengthen your guard.</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border" style="background-color:black;font-size:25px;color: cyan; font-weight: bold; border-style: solid;">NEUTRAL</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify; font-size: large;">
+  <p>Effortlessly avoid your oppenents attacks and punish any attempts at retaliation. The neutral game is complex and fluid, but improving yours will put you a cut above the rest. Sharpen your neutral game to become an untouchable menace.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Enter</span>
+  </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/testscript.js"></script>
+</body>
+</html>
